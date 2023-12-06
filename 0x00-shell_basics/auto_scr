@@ -9,8 +9,8 @@ echo "#!/bin/bash" > 1-listit
 echo "ls" >> 1-listit
 
 # 2-bring_me_home
-echo "#!/bin/bash" > 1-listit
-echo "ls" >> 1-listit
+echo "#!/bin/bash" > 2-bring_me_home
+echo "cd ~" >> 2-bring_me_home
 
 # 3-listfiles
 echo "#!/bin/bash" > 3-listfiles
@@ -30,7 +30,7 @@ echo "mkdir /tmp/my_first_directory" >> 6-firstdirectory
 
 # 7-movethatfile
 echo "#!/bin/bash" > 7-movethatfile
-echo "mkdir /tmp/betty /tmp/my_first_directory" >> 7-movethatfile
+echo "mv /tmp/betty /tmp/my_first_directory" >> 7-movethatfile
 
 # 8-firstdelete
 echo "#!/bin/bash" > 8-firstdelete
@@ -46,7 +46,7 @@ echo "cd -" >> 10-back
 
 # 11-lists
 echo "#!/bin/bash" > 11-lists
-echo "ls -la . ../ /boot" >> 11-lists
+echo "ls -la . .. /boot" >> 11-lists
 
 # 12-file_type
 echo "#!/bin/bash" > 12-file_type
@@ -64,6 +64,21 @@ echo "cp -u *.html ../" >> 14-copy_html
 echo "#!/bin/bash" > 100-lets_move
 echo "mv [A-Z]* /tmp/u" >> 100-lets_move
 
+# 101-clean_emacs
+echo "#!/bin/bash" > 101-clean_emacs
+echo "rm *~" >> 101-clean_emacs
+
+# 102-tree
+echo "#!/bin/bash" > 101-clean_emacs
+echo "mkdir -p welcome/to/school" >> 101-clean_emacs
+
+# 103-commas
+echo "#!/bin/bash" > 103-commas
+echo "ls -apm | sort -d" >> 103-commas
+
+# school.mgc
+echo "#0 string SCHOOL School data" > school.mgc
+echo "!:mime School" >> school.mgc
 
 
 # chmod
