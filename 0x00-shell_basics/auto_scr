@@ -77,7 +77,7 @@ echo "#!/bin/bash" > 103-commas
 echo "ls -apm | sort -d" >> 103-commas
 
 # school.mgc
-echo "#0 string SCHOOL School data" > school.mgc
+echo "0 string SCHOOL School data" > school.mgc
 echo "!:mime School" >> school.mgc
 
 
