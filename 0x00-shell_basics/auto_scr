@@ -1,0 +1,65 @@
+#!/bin/bash
+
+# 0-current_working_directory
+echo "#!/bin/bash" > 0-current_working_directory
+echo "pwd" >> 0-current_working_directory
+
+# 1-listit
+echo "#!/bin/bash" > 1-listit
+echo "ls" >> 1-listit
+
+# 2-bring_me_home
+echo "#!/bin/bash" > 1-listit
+echo "ls" >> 1-listit
+
+# 3-listfiles
+echo "#!/bin/bash" > 3-listfiles
+echo "ls -l" >> 3-listfiles
+
+# 4-listmorefiles
+echo "#!/bin/bash" > 4-listmorefiles
+echo "ls -la" >> 4-listmorefiles
+
+# 5-listfilesdigitonly
+echo "#!/bin/bash" > 5-listfilesdigitonly
+echo "ls -lna" >> 5-listfilesdigitonly
+
+# 6-firstdirectory
+echo "#!/bin/bash" > 6-firstdirectory
+echo "mkdir /tmp/my_first_directory" >> 6-firstdirectory
+
+# 7-movethatfile
+echo "#!/bin/bash" > 7-movethatfile
+echo "mkdir /tmp/betty /tmp/my_first_directory" >> 7-movethatfile
+
+# 8-firstdelete
+echo "#!/bin/bash" > 8-firstdelete
+echo "rm /tmp/my_first_directory/betty" >> 8-firstdelete
+
+# 9-firstdirdeletion
+echo "#!/bin/bash" > 9-firstdirdeletion
+echo "rmdir /tmp/my_first_directory" >> 9-firstdirdeletion
+
+# 10-back
+echo "#!/bin/bash" > 10-back
+echo "cd -" >> 10-back
+
+# 11-lists
+echo "#!/bin/bash" > 11-lists
+echo "ls -la . ../ /boot" >> 11-lists
+
+# 12-file_type
+echo "#!/bin/bash" > 12-file_type
+echo "file /tmp/iamafile" >> 12-file_type
+
+# 13-symbolic_link
+echo "#!/bin/bash" > 13-symbolic_link
+echo "ln -s /bin/ls __ls__" >> 13-symbolic_link
+
+# 14-copy_html
+echo "#!/bin/bash" > 14-copy_html
+echo "cp -u *.html ../" >> 14-copy_html
+
+# 100-lets_move
+echo "#!/bin/bash" > 100-lets_move
+echo "mv [A-Z]* /tmp/u" >> 100-lets_move
