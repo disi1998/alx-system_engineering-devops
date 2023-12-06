@@ -63,3 +63,8 @@ echo "cp -u *.html ../" >> 14-copy_html
 # 100-lets_move
 echo "#!/bin/bash" > 100-lets_move
 echo "mv [A-Z]* /tmp/u" >> 100-lets_move
+
+
+
+# chmod
+chmod +x *-*
