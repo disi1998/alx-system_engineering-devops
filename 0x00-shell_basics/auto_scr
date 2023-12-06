@@ -69,8 +69,8 @@ echo "#!/bin/bash" > 101-clean_emacs
 echo "rm *~" >> 101-clean_emacs
 
 # 102-tree
-echo "#!/bin/bash" > 101-clean_emacs
-echo "mkdir -p welcome/to/school" >> 101-clean_emacs
+echo "#!/bin/bash" > 102-tree
+echo "mkdir -p welcome/to/school" >> 102-tree
 
 # 103-commas
 echo "#!/bin/bash" > 103-commas
