@@ -1,0 +1,56 @@
+#!/bin/bash
+
+# 1-who_am_i
+echo "#!/bin/bash" > 1-who_am_i
+echo "whoami" >> 1-who_am_i
+
+
+# 2-groups
+echo "#!/bin/bash" > 2-groups
+echo "groups" >> 2-groups
+
+# 3-new_owner
+echo "#!/bin/bash" > 3-new_owner
+echo "sudo chown betty hello" >> 3-new_owner
+
+# 5-execute
+echo "#!/bin/bash" > 5-execute
+echo "chmod 764 hello" >> 5-execute
+
+# 6-multiple_permissions
+echo "#!/bin/bash" > 6-multiple_permissions
+echo "chmod 554 hello" >> 6-multiple_permissions
+
+# 7-everybody
+echo "#!/bin/bash" > 7-everybody
+echo "chmod 751 hello" >> 7-everybody
+
+
+# 8-James_Bond
+echo "#!/bin/bash" > 8-James_Bond
+echo "chmod 007 hello" >> 8-James_Bond
+
+# 9-John_Doe
+echo "#!/bin/bash" > 9-John_Doe
+echo "chmod 753 hello" >> 9-John_Doe
+
+# 10-mirror_permissions
+echo "#!/bin/bash" > 10-mirror_permissions
+echo "chmod --reference=olleh hello" >> 10-mirror_permissions
+
+# 11-directories_permissions
+echo "#!/bin/bash" > 11-directories_permissions
+echo "chmod ugo+X ./*" >> 11-directories_permissions
+
+# 12-directory_permissions
+echo "#!/bin/bash" > 12-directory_permissions
+echo "mkdir -m 751 my_dir" >> 12-directory_permissions
+
+# 13-change_group
+echo "#!/bin/bash" > 13-change_group
+echo "chgrp school hello" >> 13-change_group
+
+
+
+
+chmod +x *-*
