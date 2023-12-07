@@ -56,7 +56,7 @@ echo "chgrp school hello" >> 13-change_group
 
 # 100-change_owner_and_group
 echo "#!/bin/bash" > 100-change_owner_and_group
-echo "su chown vincent * | chgrp staff *" >> 100-change_owner_and_group
+echo "chown vincent:staff *" >> 100-change_owner_and_group
 
 
 
