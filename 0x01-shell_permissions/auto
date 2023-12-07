@@ -23,7 +23,7 @@ echo "chmod 744 hello" >> 5-execute
 
 # 6-multiple_permissions
 echo "#!/bin/bash" > 6-multiple_permissions
-echo "chmod +x hello" >> 6-multiple_permissions
+echo "chmod 754 hello" >> 6-multiple_permissions
 
 # 7-everybody
 echo "#!/bin/bash" > 7-everybody
