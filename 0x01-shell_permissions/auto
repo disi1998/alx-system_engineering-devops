@@ -19,7 +19,7 @@ echo "touch hello" >> 4-empty
 
 # 5-execute
 echo "#!/bin/bash" > 5-execute
-echo "chmod 764 hello" >> 5-execute
+echo "chmod 744 hello" >> 5-execute
 
 # 6-multiple_permissions
 echo "#!/bin/bash" > 6-multiple_permissions
