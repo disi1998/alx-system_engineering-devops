@@ -54,6 +54,10 @@ echo "mkdir -m 751 my_dir" >> 12-directory_permissions
 echo "#!/bin/bash" > 13-change_group
 echo "chgrp school hello" >> 13-change_group
 
+# 100-change_owner_and_group
+echo "#!/bin/bash" > 100-change_owner_and_group
+echo "su chown vincent * | chgrp staff *" >> 100-change_owner_and_group
+
 
 
 
