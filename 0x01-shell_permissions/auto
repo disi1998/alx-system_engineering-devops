@@ -58,6 +58,10 @@ echo "chgrp school hello" >> 13-change_group
 echo "#!/bin/bash" > 100-change_owner_and_group
 echo "chown vincent:staff *" >> 100-change_owner_and_group
 
+# 101-symbolic_link_permissions
+echo "#!/bin/bash" > 101-symbolic_link_permissions
+echo "chown -h vincent:staff _hello" >> 101-symbolic_link_permissions
+
 
 
 
