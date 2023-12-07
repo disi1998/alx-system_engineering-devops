@@ -62,6 +62,10 @@ echo "chown vincent:staff *" >> 100-change_owner_and_group
 echo "#!/bin/bash" > 101-symbolic_link_permissions
 echo "chown -h vincent:staff _hello" >> 101-symbolic_link_permissions
 
+# 102-if_only
+echo "#!/bin/bash" > 102-if_only
+echo "chown --from=guillaume betty hello" >> 102-if_only
+
 
 
 
