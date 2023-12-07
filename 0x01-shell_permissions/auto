@@ -27,7 +27,7 @@ echo "chmod 754 hello" >> 6-multiple_permissions
 
 # 7-everybody
 echo "#!/bin/bash" > 7-everybody
-echo "chmod 751 hello" >> 7-everybody
+echo "chmod ugo+x hello" >> 7-everybody
 
 
 # 8-James_Bond
