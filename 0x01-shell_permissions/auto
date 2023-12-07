@@ -13,6 +13,10 @@ echo "groups" >> 2-groups
 echo "#!/bin/bash" > 3-new_owner
 echo "sudo chown betty hello" >> 3-new_owner
 
+# 4-empty
+echo "#!/bin/bash" > 4-empty
+echo "touch hello" >> 4-empty
+
 # 5-execute
 echo "#!/bin/bash" > 5-execute
 echo "chmod 764 hello" >> 5-execute
