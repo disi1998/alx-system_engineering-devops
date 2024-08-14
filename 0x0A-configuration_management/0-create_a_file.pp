@@ -1,6 +1,6 @@
 # create a file in /etc/
 
-file {'/etc/school':
+file {'/tmp/school':
   path    => '/etc/school',
   mode    => '0744',
   owner   => 'www-data',
