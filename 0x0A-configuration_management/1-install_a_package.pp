@@ -1,4 +1,4 @@
-#install package
+# install package
 
 package {'Flask':
   ensure   => '2.1.0',
