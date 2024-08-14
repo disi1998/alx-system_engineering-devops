@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m if_statements
+git commit -m puppet
 git push
